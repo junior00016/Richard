@@ -1,0 +1,29 @@
+.header {
+    background: linear-gradient(287.15deg, #450E4B 0%, #3C0C41 24.48%, rgba(207, 0, 99, 0) 100%),
+        linear-gradient(0deg, #CF0063, #CF0063);
+
+}
+
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__menu {
+    display: flex;
+    gap: 30px;
+}
+
+.nav__logo {
+    padding: 29px 0 48px 0;
+}
+
+.nav__menu-item-link {
+    font-family: 'GR';
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    color: var(--white);
+    text-transform: capitalize;
+}
