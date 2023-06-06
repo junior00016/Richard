@@ -27,3 +27,29 @@
     color: var(--white);
     text-transform: capitalize;
 }
+
+@media screen and (max-width:540px) {
+    .header__nav {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .nav__logo {
+        padding: 20px 0 35px 0;
+    }
+
+}
+
+@media screen and (max-width:375px) {
+    .nav__menu-item-link {
+        font-size: 13px;
+    }
+
+    .nav__menu {
+        gap: 20px;
+    }
+
+    .nav__logo {
+        padding: 15px 0 20px 0;
+    }
+}
