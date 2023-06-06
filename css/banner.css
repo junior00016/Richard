@@ -1,0 +1,46 @@
+.banner__bg {
+    position: relative;
+    top: -185px;
+    left: 530px;
+}
+
+.banner__desc {
+    position: relative;
+    top: 167px;
+}
+
+.banner__desc-title {
+    font-family: var(--GR);
+    font-size: 80px;
+    font-weight: 400;
+    line-height: 80px;
+    color: var(--white);
+}
+
+.banner__desc-p {
+    font-family: var(--GR);
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 44px;
+    color: var(--white);
+    padding: 10px 0 25px 0;
+}
+
+.banner__desc-button {
+    outline: none;
+    border: none;
+    width: 170px;
+    height: 66px;
+    background: var(--btn);
+    color: var(--white);
+    font-family: var(--GR);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    border-radius: 3px;
+}
+
+.banner__desc-button:hover {
+    border: 2px solid #B04BB3;
+    color: var(--blakc);
+}
