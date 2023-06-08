@@ -1,12 +1,12 @@
-.banner__bg {
-    position: relative;
-    top: -185px;
-    left: 530px;
+.banner__wrap {
+    display: flex;
+    align-items: center;
 }
 
-.banner__desc {
+.banner__bg {
     position: relative;
-    top: 167px;
+    right: 130px;
+    top: 40px;
 }
 
 .banner__desc-title {
@@ -43,4 +43,61 @@
 .banner__desc-button:hover {
     border: 2px solid #B04BB3;
     color: var(--blakc);
+}
+
+@media screen and (max-width:1300px) {
+    .banner {
+        margin-top: 20px;
+    }
+
+    .banner__wrap {
+        flex-wrap: wrap;
+    }
+
+    .banner__bg {
+        position: static;
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .banner__desc-title {
+        font-size: 70px;
+    }
+
+    .banner__desc-p {
+        font-size: 23px;
+        padding: 10px 0 20px 0;
+
+    }
+}
+
+@media screen and (max-width:540px) {
+    .banner__desc-title {
+        font-size: 55px;
+    }
+
+    .banner__desc-p {
+        font-size: 20px;
+
+    }
+    .banner__desc-button{
+        width: 150px;
+        height: 55px;
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width:340px) {
+    .banner__desc-title {
+        font-size: 48px;
+    }
+
+    .banner__desc-p {
+        font-size: 18px;
+
+    }
 }
