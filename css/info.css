@@ -1,0 +1,114 @@
+.info__block1 {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.info__block1_cards {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 100px 0 100px;
+}
+
+.info__block1_cards-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 302px;
+}
+
+.info__block2_cards {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.info__block1_cards-item_p {
+    font-family: var(--GR);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 2px;
+    color: #A8A8A8;
+}
+
+.info__block1_cards-item_desc {
+    font-family: var(--GR);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    color: var(--desc);
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.title {
+    font-family: var(--GR);
+    font-size: 38px;
+    font-weight: 400;
+    line-height: 48px;
+    color: var(--bleck);
+    text-transform: capitalize;
+    margin: 30px 0 22px 0;
+}
+
+.info__block2 {
+    display: flex;
+    gap: 60px;
+    margin-bottom: 163px;
+}
+
+.info__block2_card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info__block_cards-icon {
+    font-size: 45px;
+}
+
+.info__block1_cards-title {
+    font-family: var(--GB);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    color: var(--bleck);
+    margin: 30px 0 17px 0;
+}
+
+.info__block2_cards__p {
+    font-family: var(--GR);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    color: var(--desc);
+    text-align: center;
+    width: 371px;
+}
+
+.info__block2_data {
+    display: flex;
+    justify-content:space-between;
+    margin-bottom: 170px;
+}
+
+.info__block2-data-item-h {
+    font-family: var(--GR);
+    font-size: 59px;
+    font-weight: 400;
+    line-height: 90px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #333333;
+}
+.info__block2-data-item-p{
+    font-family: var(--GB);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+    color: var(--bleck);
+}

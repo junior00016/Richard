@@ -30,12 +30,3 @@ body {
     background: var(--bg);
     color: var(--bleck);
 }
-
-.title {
-    font-family: var(--GR);
-    font-size: 38px;
-    font-weight: 400;
-    line-height: 48px;
-    color: var(--bleck);
-    text-transform: capitalize;
-}
