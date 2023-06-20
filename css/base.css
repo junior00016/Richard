@@ -8,7 +8,7 @@
 
 :root {
     --white: #ffff;
-    --bg: #E5E5E5;
+    --bg: rgb(229, 229, 229);
     --bleck: #000;
     --grey: #1B1B1B;
     --desc: #6B6B6B;
